@@ -1,0 +1,36 @@
+.carousel {
+  position: relative;
+  margin-top: 1.33333333rem;
+  width: 100%;
+  height: 2.93333333rem;
+}
+.carousel ul {
+  width: 500%;
+  height: 100%;
+  margin-left: -100%;
+}
+.carousel ul li {
+  float: left;
+  height: 100%;
+  width: 20%;
+}
+.carousel ul li img {
+  width: 100%;
+  height: 100%;
+}
+.carousel ol {
+  position: absolute;
+  display: flex;
+  bottom: 5px;
+  right: 5px;
+}
+.carousel ol li {
+  margin-right: 5px;
+  width: 5px;
+  height: 5px;
+  background-color: aqua;
+  border-radius: 2px;
+}
+.carousel ol li.current {
+  width: 15px;
+}
